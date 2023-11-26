@@ -1,0 +1,17 @@
+2023-11-26 17:40:15.751 +01:00 [INF] User profile is available. Using 'C:\Users\roden\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-26 17:40:15.971 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-26 17:40:15.971 +01:00 [INF] Hosting environment: Development
+2023-11-26 17:40:15.971 +01:00 [INF] Content root path: C:\Users\roden\source\repos\PruebaInitium\PruebaInitium.API
+2023-11-26 17:40:15.998 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/index.html - -
+2023-11-26 17:40:16.084 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/index.html - - - 200 - text/html;charset=utf-8 88.1183ms
+2023-11-26 17:40:16.167 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/v1/swagger.json - -
+2023-11-26 17:40:16.235 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.5215ms
+2023-11-26 17:40:29.563 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44380/api/login application/json 37
+2023-11-26 17:40:29.644 +01:00 [INF] Executing endpoint 'PruebaInitium.API.Controllers.LoginController.Login (PruebaInitium.API)'
+2023-11-26 17:40:29.674 +01:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PruebaInitium.API.Models.LoginRequestModel) on controller PruebaInitium.API.Controllers.LoginController (PruebaInitium.API).
+2023-11-26 17:40:29.688 +01:00 [INF] Entering LoggingController method Login
+2023-11-26 17:40:29.791 +01:00 [INF] Exiting LoggingController method Login
+2023-11-26 17:40:29.795 +01:00 [INF] Executing OkObjectResult, writing value of type 'PruebaInitium.API.Models.LoginResultModel'.
+2023-11-26 17:40:29.804 +01:00 [INF] Executed action PruebaInitium.API.Controllers.LoginController.Login (PruebaInitium.API) in 126.5129ms
+2023-11-26 17:40:29.805 +01:00 [INF] Executed endpoint 'PruebaInitium.API.Controllers.LoginController.Login (PruebaInitium.API)'
+2023-11-26 17:40:29.806 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44380/api/login application/json 37 - 200 - application/json;+charset=utf-8 242.2654ms
